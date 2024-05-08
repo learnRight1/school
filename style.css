@@ -1,0 +1,39 @@
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: flex-end; */
+  /* align-content: ; */
+  /* flex-direction: row-reverse; */
+  align-items: baseline;
+  /* text-align: ; */
+  background-color: rgba(97, 0, 0, 0.247);
+  color: rgb(196, 169, 169);
+}
+
+section {
+  height: 300px;
+  width: 70%;
+}
+
+a,
+ul {
+  text-decoration: none;
+}
+
+aside {
+  display: flexbox;
+  position: absolute;
+  left: 75%;
+  height: 75%;
+  width: 30%;
+}
+p {
+  text-decoration: dotted;
+  text-decoration-color: blue;
+}
